@@ -3569,3 +3569,13 @@ textarea.form-input::-webkit-resizer { display: none; }
     justify-content: flex-start;
   }
 }
+
+@media (max-width: 600px) {
+  .navbar-link {
+    padding: 26px 10px; /* increase vertical and horizontal padding */
+    font-size: 1.1rem;
+  }
+  .navbar-list {
+    gap: 18px; /* add more space between navbar items */
+  }
+}
