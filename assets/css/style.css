@@ -3525,3 +3525,47 @@ textarea.form-input::-webkit-resizer { display: none; }
 .contact-info :is(.contact-link, time, address) {
   font-size: 13px !important;
 }
+
+@media (max-width: 600px) {
+  .navbar-link span {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-link span {
+    display: none;
+  }
+  .sidebar {
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-link span {
+    display: none;
+  }
+  .sidebar {
+    padding-bottom: 24px;
+  }
+  .contacts-list .contact-item:last-child {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-link span {
+    display: none;
+  }
+  .sidebar {
+    padding-bottom: 24px;
+  }
+  .contacts-list .contact-item:last-child {
+    margin-bottom: 16px;
+  }
+  .social-list {
+    gap: 22px;
+    padding-left: 0;
+    justify-content: flex-start;
+  }
+}
